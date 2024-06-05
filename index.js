@@ -2,7 +2,7 @@ import express from "express";
 const app = express();
 const port = 3000;
 const d = new Date();
-var day = d.getDay();
+const day = d.getDay();
 var motivationalQuote = ""
 
 if (day > 0 && day < 6){
