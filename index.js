@@ -9,7 +9,7 @@ if (day > 0 && day < 6){
     motivationalQuote = "Hey, It is A WeekDay , It is Time to Work Hard!!";
 }
 else{
-    motivationalQuote = "Hey, It is A WeekDay , It is Time to Have Fun";
+    motivationalQuote = "Hey, It is A Weekend , It is Time to Have Fun";
 }
 app.get("/",(req,res)=>{
 res.render("index.ejs",
